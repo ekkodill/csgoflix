@@ -5,29 +5,168 @@
 	text-align: center;
 }
 .bar {
+	display: block;
 	padding: 10px;
 	text-align: center;
 }
-ul.data-ctrl {
-	list-style: outside none none;
-	margin: 0 auto;
-	max-width: 500px;
-	padding-left: 0;
-	text-align: center;
-	text-decoration: none;
+
+/*/LIST/*/
+* { margin: 0; padding: 0;}
+
+.testlist {
+  margin: 20px;
 }
+
+ul {
+  	list-style: outside none none;
+  	display: block;
+	margin: 0 auto;	
+  	width: 500px;
+  	text-align: center;
+}
+
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+li {
+  padding: 10px;
+  overflow: auto;
+ border-radius: 3px;
+}
+
+
+/*//*/
+
 input.search {
-	border: 2px solid #1fa67a;
-	font-size: 16px;
-	height: 35px;
+	border: 2px solid #cfdcec;
+	font-size: 1.2em;
+	height: 50px;
 	text-align: center;
-	width: 280px;
+	width: 500px;
 }
-.data-ctrl li {
-	background-color: #1fa67a;
-	border-radius: 3px;
-	color: #ffffff;
-	font-size: 17px;
-	height: 25px;
-	padding: 0;
+/*/PLAY/*/
+.image {
+ position: relative;
+ width: 100%;
+}
+
+.playbtn {
+	position: absolute;
+	top: 200px;
+	left: 210px;
+
+}
+
+/*/MENU/*/
+
+.round-button {
+	width:14%;
+	display: inline-block;
+	margin: 0 10% 0 0;
+
+}
+.round-button-circle {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:10px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #4679BD; 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+	background:#30588e;
+}
+.round-button a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:.8em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+
+
+.filter {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.btnFilter:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+  .headName {
+  	font-size: 2em;
+  }
+
+  input.search {
+  	width: 100%;
+  	height: 150px;
+  	font-size: 2em;
+  }
+
+  .round-button {
+	width:13%;
+	margin: 0 5% 0 5%;
+  }
+
+  .filter {
+	width: auto;
+	margin: 0 auto;
+  }
+
+  .round-button a {
+	font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .headName {
+  	font-size: 1.2em;
+  }
+
+  input.search {
+  	width: 100%;
+  	height: 100px;
+  	font-size: 1.2em;
+  }
+
+  .round-button {
+	width:15%;
+	margin: 0 5% 0 3%;
+  }
+
+  .filter {
+	width: auto;
+	margin: 0 auto;
+  }
+
+  .round-button a {
+	font-size: 1.2em;
+  }
 }
