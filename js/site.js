@@ -1,12 +1,27 @@
 var app = angular.module('instantsearch',[]);
+ 
 
 app.controller('instantSearchCtrl',function($scope,$http){
 	$http.get('data.json').success(function(data, status, headers, config) {
 		$scope.items = data.data;
+
 	}).error(function(data, status, headers, config) {
 		console.log("No data found..");
   });
+
 });
+
+
+app.filter('getVideoId', function() {
+    return function(input) {
+
+     // get video id
+     var output = input.substr(input.indexOf("=") + 1);
+
+     return output;
+   }
+});
+
 
 app.filter('searchFor', function() {
 	return function(arr, searchString) {
@@ -23,3 +38,4 @@ app.filter('searchFor', function() {
 		return result;
 	};
 });
+
