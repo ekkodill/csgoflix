@@ -1,11 +1,11 @@
 {"error":0,"message":"Admin data fetch successfully","data":[
-{"id":"11","title":"Using controller with directive and isolating scope in AngularJs"},
-{"id":"10","title":"Fade out transition effect using CSS3"},
-{"id":"9","title":"Custom Directives in angular js for beginners"},
-{"id":"8","title":"Create a RESTful API using PHP, My-sql and Slim-Framework"},
-{"id":"7","title":"Serving processed $http response from factories,in AngularJS"},
-{"id":"6","title":"Check condition before loading route in Angular JS"},
-{"id":"5","title":"HTML5 vast pre-roll video ads with skip ad feature"},
-{"id":"4","title":"Download JSON data in CSV format Cross Browser Support"},
-{"id":"3","title":"Highlight a selected row in ng-repeat using ng-class"},
-{"id":"2","title":"File handling with PHP"},{"id":"1","title":"PHP Word Censor"}]}
+{"id":"11","title":"Alive - CS 1.6 - Edited by Mix(eP)", 						  "url":"https://www.youtube.com/watch?v=e2JR9LtAic0", "game": "cs1.6"},
+{"id":"10","title":"Mousesports - Ready, Willing & Able", 						  "url":"https://www.youtube.com/watch?v=nwyvRK62f6o", "game": "cs1.6"},
+{"id":"9","title":"NoA - The Two Continents - Professional Gamers", 			  "url":"https://www.youtube.com/watch?v=jecywLdNLCU", "game": "cs1.6"},
+{"id":"8","title":"Choual History X", 											  "url":"https://www.youtube.com/watch?v=CgVj8oz2riw", "game": "cs1.6"},
+{"id":"7","title":"Counter Strike 1.6 ANNIHILATION 2", 							  "url":"https://www.youtube.com/watch?v=Y6gcmbioqiE", "game": "cs1.6"},
+{"id":"6","title":"CS1.6: Hush", 		  												"url":"https://www.youtube.com/watch?v=zUypo7eXfgM", "game": "cs1.6"},
+{"id":"5","title":"Jaegarn X3 - One Last Show", 		  							"url":"https://www.youtube.com/watch?v=3xy3qKzWhng", "game": "cs1.6"},
+{"id":"4","title":"CS1.6 1.6 - Single Gaming 3: StreL", 	  							"url":"https://www.youtube.com/watch?v=Y0x9-aOY3U4", "game": "cs1.6"},
+{"id":"3","title":"Ruination", 		  												"url":"https://www.youtube.com/watch?v=9om-H064Bxk", "game": "csgo"},
+{"id":"2","title":"DreamHack Summer'11 Files",  									"url":"https://www.youtube.com/watch?v=FbAcML2j_kw", "game": "css"}  ]}
